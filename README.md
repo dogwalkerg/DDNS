@@ -63,8 +63,8 @@
   - 使用环境变量：
     ```
     docker run -d \
-      -e DDNS_DNS=dnspod \
-      -e DDNS_ID=12345 \
+      -e DDNS_DNS=cloudflare \
+      -e DDNS_ID=cloudflare的邮箱 \
       -e DDNS_TOKEN=mytokenkey \
       -e DDNS_IPV4=ddns.newfuture.cc \
       -e DDNS_IPV6=ddns.newfuture.cc \
